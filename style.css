@@ -1,0 +1,48 @@
+body{
+    background-color: beige;
+}
+.header_div{
+    background-color: cadetblue;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+.header_div p{
+    font-size: 18px;
+    color: bisque;
+    font-variant: none;
+}
+.main_div button{
+    margin-top: 10px;
+    width: 130px;
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-family: fantasy;
+}
+#result_label, #result_confidence{
+    color: cadetblue;
+    letter-spacing: 2px;
+    font-family: sans;
+    margin: 10px;
+}
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: crimson;
+    color: beige;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 5px gray;
+}
+#animal_image{
+    border: 8px solid cadetblue;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+}
